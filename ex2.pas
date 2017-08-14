@@ -2,7 +2,7 @@ Program Pzim ;
 
 {
 *  Elabore um programa que permita converter
-*  v·rios tipos de moedas, e de seguida apresente
+*  v√°rios tipos de moedas, e de seguida apresente
 *  o resultado no ficheiro criado no seu ambiente
 *  de trabalho.
 }
@@ -45,7 +45,7 @@ Procedure TelaPrincipal;
 		writeln('   |                                       |');
 		writeln('   \---------------------------------------/');
 		writeln;
-		write('             Escolha uma opÁ„o: ');
+		write('             Escolha uma op√ß√£o: ');
 		readln(opcao);
 		
 	end;
@@ -83,17 +83,17 @@ repeat
 			assign(ficheiro, 'C:\Users\Aluno\Desktop\conversao.txt');
 			rewrite(ficheiro);
 			writeln(ficheiro, '');
-		  writeln(ficheiro, '  ',valor:0:2,' euros -> ',resultado:0:2,' dolares');
+		  	writeln(ficheiro, '  ',valor:0:2,' euros -> ',resultado:0:2,' dolares');
 		  
-		  writeln;
-		  writeln('   /---------------------------------------\');
-			writeln('   |  O resultado da convers„o est·        |');
+		  	writeln;
+		  	writeln('   /---------------------------------------\');
+			writeln('   |  O resultado da convers√£o est√°        |');
 			writeln('   |  localizada no seu ambiente de        |');
 			writeln('   |  trabalho no ficheiro conversao.txt   |');
 			writeln('   \---------------------------------------/');
 			writeln;
- 	  	writeln('  Pressione uma TECLA para voltar ao menu principal.');
- 	  	readkey;
+ 	  		writeln('  Pressione uma TECLA para voltar ao menu principal.');
+ 	  		readkey;
 		  
 		end;
 	2:
@@ -119,17 +119,17 @@ repeat
 			assign(ficheiro, 'C:\Users\Aluno\Desktop\conversao.txt');
 			rewrite(ficheiro);
 			writeln(ficheiro, '');
-		  writeln(ficheiro, '  ',valor:0:2,' dolares -> ',resultado:0:2,' euros');
+			writeln(ficheiro, '  ',valor:0:2,' dolares -> ',resultado:0:2,' euros');
 		  
-		  writeln;
-		  writeln('   /---------------------------------------\');
-			writeln('   |  O resultado da convers„o est·        |');
+			writeln;
+			writeln('   /---------------------------------------\');
+			writeln('   |  O resultado da convers√£o est√°        |');
 			writeln('   |  localizada no seu ambiente de        |');
 			writeln('   |  trabalho no ficheiro conversao.txt   |');
 			writeln('   \---------------------------------------/');
 			writeln;
- 	  	writeln('  Pressione uma TECLA para voltar ao menu principal.');
- 	  	readkey;
+ 	  		writeln('  Pressione uma TECLA para voltar ao menu principal.');
+ 	  		readkey;
 		  
 		end;
 		
@@ -156,17 +156,17 @@ repeat
 			assign(ficheiro, 'C:\Users\Aluno\Desktop\conversao.txt');
 			rewrite(ficheiro);
 			writeln(ficheiro, '');
-		  writeln(ficheiro, '  ',valor:0:2,' euros -> ',resultado:0:2,' reais');
+			writeln(ficheiro, '  ',valor:0:2,' euros -> ',resultado:0:2,' reais');
 		  
-		  writeln;
-		  writeln('   /---------------------------------------\');
-			writeln('   |  O resultado da convers„o est·        |');
+		  	writeln;
+		 	writeln('   /---------------------------------------\');
+			writeln('   |  O resultado da convers√£o est√°        |');
 			writeln('   |  localizada no seu ambiente de        |');
 			writeln('   |  trabalho no ficheiro conversao.txt   |');
 			writeln('   \---------------------------------------/');
 			writeln;
- 	  	writeln('  Pressione uma TECLA para voltar ao menu principal.');
- 	  	readkey;
+ 	  		writeln('  Pressione uma TECLA para voltar ao menu principal.');
+ 	  		readkey;
 		  
 		end;
 		
@@ -193,17 +193,17 @@ repeat
 			assign(ficheiro, 'C:\Users\Aluno\Desktop\conversao.txt');
 			rewrite(ficheiro);
 			writeln(ficheiro, '');
-		  writeln(ficheiro, '  ',valor:0:2,' reais -> ',resultado:0:2,' euros');
+		 	writeln(ficheiro, '  ',valor:0:2,' reais -> ',resultado:0:2,' euros');
 		  
-		  writeln;
-		  writeln('   /---------------------------------------\');
-			writeln('   |  O resultado da convers„o est·        |');
+		  	writeln;
+		  	writeln('   /---------------------------------------\');
+			writeln('   |  O resultado da convers√£o est√°        |');
 			writeln('   |  localizada no seu ambiente de        |');
 			writeln('   |  trabalho no ficheiro conversao.txt   |');
 			writeln('   \---------------------------------------/');
 			writeln;
- 	  	writeln('  Pressione uma TECLA para voltar ao menu principal.');
- 	  	readkey;
+ 	  		writeln('  Pressione uma TECLA para voltar ao menu principal.');
+ 	  		readkey;
 		  
 		end;
 	
@@ -230,17 +230,17 @@ repeat
 			assign(ficheiro, 'C:\Users\Aluno\Desktop\conversao.txt');
 			rewrite(ficheiro);
 			writeln(ficheiro, '');
-		  writeln(ficheiro, '  ',valor:0:2,' dolares -> ',resultado:0:2,' reais');
+		  	writeln(ficheiro, '  ',valor:0:2,' dolares -> ',resultado:0:2,' reais');
 		  
-		  writeln;
-		  writeln('   /---------------------------------------\');
-			writeln('   |  O resultado da convers„o est·        |');
+		  	writeln;
+		  	writeln('   /---------------------------------------\');
+			writeln('   |  O resultado da convers√£o est√°        |');
 			writeln('   |  localizada no seu ambiente de        |');
 			writeln('   |  trabalho no ficheiro conversao.txt   |');
 			writeln('   \---------------------------------------/');
 			writeln;
- 	  	writeln('  Pressione uma TECLA para voltar ao menu principal.');
- 	  	readkey;
+ 	  		writeln('  Pressione uma TECLA para voltar ao menu principal.');
+ 	  		readkey;
 		  
 		end;
 		
@@ -267,17 +267,17 @@ repeat
 			assign(ficheiro, 'C:\Users\Aluno\Desktop\conversao.txt');
 			rewrite(ficheiro);
 			writeln(ficheiro, '');
-		  writeln(ficheiro, '  ',valor:0:2,' reais -> ',resultado:0:2,' dolares');
+		  	writeln(ficheiro, '  ',valor:0:2,' reais -> ',resultado:0:2,' dolares');
 		  
-		  writeln;
-		  writeln('   /---------------------------------------\');
-			writeln('   |  O resultado da convers„o est·        |');
+		  	writeln;
+		  	writeln('   /---------------------------------------\');
+			writeln('   |  O resultado da convers√£o est√°        |');
 			writeln('   |  localizada no seu ambiente de        |');
 			writeln('   |  trabalho no ficheiro conversao.txt   |');
 			writeln('   \---------------------------------------/');
 			writeln;
- 	  	writeln('  Pressione uma TECLA para voltar ao menu principal.');
- 	  	readkey;
+			writeln('  Pressione uma TECLA para voltar ao menu principal.');
+ 	  		readkey;
 		  
 		end;					
 				
